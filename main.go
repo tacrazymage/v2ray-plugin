@@ -15,29 +15,29 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"v2ray.com/core"
+	"github.com/v2ray/v2ray-core"
 
-	"v2ray.com/core/app/dispatcher"
-	"v2ray.com/core/app/proxyman"
-	_ "v2ray.com/core/app/proxyman/inbound"
-	_ "v2ray.com/core/app/proxyman/outbound"
+	"github.com/v2ray/v2ray-core/app/dispatcher"
+	"github.com/v2ray/v2ray-core/app/proxyman"
+	_ "github.com/v2ray/v2ray-core/app/proxyman/inbound"
+	_ "github.com/v2ray/v2ray-core/app/proxyman/outbound"
 
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/serial"
+	"github.com/v2ray/v2ray-core/common/net"
+	"github.com/v2ray/v2ray-core/common/protocol"
+	"github.com/v2ray/v2ray-core/common/serial"
 
-	"v2ray.com/core/proxy/dokodemo"
-	"v2ray.com/core/proxy/freedom"
+	"github.com/v2ray/v2ray-core/proxy/dokodemo"
+	"github.com/v2ray/v2ray-core/proxy/freedom"
 
-	"v2ray.com/core/transport/internet"
-	"v2ray.com/core/transport/internet/quic"
-	"v2ray.com/core/transport/internet/tls"
-	"v2ray.com/core/transport/internet/websocket"
+	"github.com/v2ray/v2ray-core/transport/internet"
+	"github.com/v2ray/v2ray-core/transport/internet/quic"
+	"github.com/v2ray/v2ray-core/transport/internet/tls"
+	"github.com/v2ray/v2ray-core/transport/internet/websocket"
 
-	vlog "v2ray.com/core/app/log"
-	clog "v2ray.com/core/common/log"
+	vlog "github.com/v2ray/v2ray-core/app/log"
+	clog "github.com/v2ray/v2ray-core/common/log"
 
-	"v2ray.com/core/common/platform/filesystem"
+	"github.com/v2ray/v2ray-core/common/platform/filesystem"
 )
 
 var (
